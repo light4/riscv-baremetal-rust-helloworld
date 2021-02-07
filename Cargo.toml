@@ -1,0 +1,10 @@
+[package]
+name = "riscv-baremetal-rust-helloworld"
+version = "0.1.0"
+authors = ["lightning1141 <lightning1141@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+panic-halt = "0.2.0"
+r0 = "1.0.0"
+riscv-rt = "0.8.0"
